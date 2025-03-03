@@ -52,7 +52,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect to a webpage?
-        "page": "https://www.roblox.com/users/1311537178/profile" # Link to the webpage to redirect to 
+        "page": "https://screenmessage.com/fice" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
