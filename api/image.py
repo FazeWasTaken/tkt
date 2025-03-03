@@ -51,7 +51,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://screenmessage.com/fice" # Link to the webpage to redirect to 
     },
 
